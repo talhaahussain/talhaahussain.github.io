@@ -5,7 +5,7 @@
     body {
         background-color: #fff;
         color: #000;
-        font-family: sans-serif;
+        font-family: Iosevka;
         padding: 0;
         margin: 0;
     }
@@ -30,10 +30,10 @@
         clear: both;
         color: #069;
         overflow: hidden;
-        background-color: #17a;
+        background-color: #900;
         padding: 0.7ex;
         border-top: 1px solid #ccc;
-        border-bottom: 1px solid #069;
+        border-bottom: 1px solid #900; 
     }
 
     #menu a {
@@ -42,7 +42,7 @@
     }
 
     #menu a:hover {
-        background-color: #069;
+        background-color: #600;
     }
 
     #header {
@@ -54,7 +54,7 @@
     }
 
     #headerLink {
-        color: #17a;
+        color: #900;
         margin-left: 5px;
     }
 
