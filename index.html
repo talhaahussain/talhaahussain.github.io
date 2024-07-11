@@ -16,14 +16,14 @@ function updateDateTime() {
     const hours = currentTime.getHours().toString().padStart(2, '0');
     const minutes = currentTime.getMinutes().toString().padStart(2, '0');
     const seconds = currentTime.getSeconds().toString().padStart(2, '0');
-
+    const milliseconds = currentTime.getMilliseconds().toString().slice(0, 2);
     // Construct the date and time string in the desired format.
-    const dateTimeString = `${year} ${month} ${day} ${hours}:${minutes}:${seconds}`;
+    const dateTimeString = `${year} ${month} ${day} ${hours}:${minutes}:${seconds}:${milliseconds}`;
     clockElement.textContent = dateTimeString;
 }
 
 // Update the date and time every second (1000 milliseconds).
-setInterval(updateDateTime, 1000);
+setInterval(updateDateTime, 1);
 
 // Initial update.
 updateDateTime();
