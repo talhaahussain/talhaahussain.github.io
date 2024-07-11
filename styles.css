@@ -58,6 +58,13 @@
         margin-left: 5px;
     }
 
+    #real-time-clock {
+        font-size: 15px;
+        clear: both;
+        overflow: hidden;
+        padding: 1ex;
+    }
+
     h1 {
         margin: 1em 1ex 0.5ex 0;
         font-size: 1.4em;
