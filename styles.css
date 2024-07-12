@@ -67,8 +67,10 @@
 
     #earth {
         filter: invert(11%) sepia(52%) saturate(7147%) hue-rotate(3deg) brightness(85%) contrast(118%);
-        width: 30px;
-        height: 30px;
+        width: 35px;
+        height: 35px;
+        vertical-align: middle;
+        padding-bottom: 5px;
     }
 
     h1 {
