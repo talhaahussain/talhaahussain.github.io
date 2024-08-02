@@ -11,7 +11,7 @@ function updateDateTime() {
     const seconds = currentTime.getSeconds().toString().padStart(2, '0');
     const milliseconds = currentTime.getMilliseconds().toString().slice(0, 2);
     // Construct the date and time string in the desired format.
-    const dateTimeString = `${year}-${month}-${day}-${hours}:${minutes}:${seconds}:${milliseconds}`;
+    const dateTimeString = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}:${milliseconds}`;
     clockElement.textContent = dateTimeString;
 }
 
